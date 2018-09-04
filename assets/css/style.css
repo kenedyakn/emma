@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+}
+
+#header {
+    height: 70px;
+    background: green;
+}
+
+#banner {
+    height: 600px;
+    background: url("../images/food.jpg");
+    background-repeat: no-repeat;
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+    color: ghostwhite;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#menu {
+    float: left;
+}
+
+#user-management {
+    float: right;
+}
+
+.title-2 {
+    text-align: center;
+}
+
+.best-food-item {
+    text-align: center;
+    float: left;
+    margin-left: 30px;
+}
+
+#best-food {
+    text-align: center;
+}
+
+#content {
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.img-best-food-item{
+    height: 200px;
+    width: 350px;
+}
+
+#sm-banner{
+    height: 200px;
+    background: url("../images/food.jpg");
+    background-repeat: no-repeat;
+}
+
+#footer{
+    background: #ececec;
+    height: 400px;
+    padding-top: 30px;
+}

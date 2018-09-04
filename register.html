@@ -1,0 +1,150 @@
+<html>
+<head>
+    <title>
+        Home
+    </title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #header {
+            height: 70px;
+            background: green;
+        }
+
+        #banner {
+            height: 200px;
+            background: url("assets/images/food.jpg");
+            background-repeat: no-repeat;
+        }
+
+        #logo {
+            font-size: 30px;
+            font-weight: 700;
+            padding: 10px;
+            color: ghostwhite;
+            float: left;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        #menu {
+            float: left;
+        }
+
+        #user-management {
+            float: right;
+        }
+
+        #sign-up {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .form-row {
+            margin-bottom: 20px;
+        }
+
+        #footer{
+            background: #ececec;
+            height: 100px;
+            padding-top: 30px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="header">
+    <div id="logo">
+        Fast Food Fast
+    </div>
+    <div id="menu">
+        <ul id="menu-ul">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">Place order</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+    <div id="user-management">
+        <ul id="register">
+            <li><a href="register.html">Signup</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+</div>
+<div id="banner">
+</div>
+<div id="sign-up" align="center">
+    <div>
+        <h2 align="center">Signup</h2>
+    </div>
+    <form>
+        <table>
+            <tr class="form-row">
+                <td>
+                    <input placeholder="Firstname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input placeholder="Lastname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input placeholder="Username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input placeholder="Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input placeholder="Phone number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input placeholder="Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Signup">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div id="footer" align="center">
+    <div id="copy-right" style="padding:20px">
+        &copy; Copy <a href="#">right Fast Foods Fast</a>
+    </div>
+</div>
+</body>
+</html>
