@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            height: 70px;
+            background: green;
+        }
+
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: #f1f1f1;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color on hover */
+        li a:hover {
+            background-color: #555;
+            color: white;
+        }
+
+        #left {
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+
+        #right{
+            padding: 20px;
+        }
+
+        #items td, #items th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #items tr:nth-child(even){background-color: #f2f2f2;}
+
+        #items tr:hover {background-color: #ddd;}
+
+        #logo{
+            padding: 20px;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <div id="logo">
+        <h2>Admin</h2>
+    </div>
+</div>
+<div id="left">
+    <ul>
+        <li><a href="index.html">Food items</a></li>
+        <li><a href="orders.html">View orders</a></li>
+        <li><a href="#">Logout</a></li>
+    </ul>
+</div>
+<div id="right">
+    <h2>Create new item</h2>
+    <table width="900px">
+        <tr>
+            <td>Food name</td>
+            <td><input type="text" /> </td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td><input type="text" /> </td>
+        </tr>
+        <tr>
+            <td>Picture</td>
+            <td><input type="file" /> </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Create"></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
